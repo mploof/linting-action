@@ -1,6 +1,6 @@
 # action.yml
 name: 'Hello World'
-description: 'See if it's working'
+description: "See if it's working"
 runs:
   using: 'docker'
   image: 'Dockerfile'
