@@ -2,7 +2,7 @@
 
 set -eu
 
-echo ls
+ls
 
 echo "Running flake8"
 flake8
