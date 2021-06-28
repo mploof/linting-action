@@ -1,6 +1,8 @@
-# action.yml
-name: 'Hello World'
-description: "See if it's working"
+name: 'Python Linting'
+description: 'An opinionated action to enforce a sane set of python linting rules.'
+branding:
+  color: 'orange'
+  icon: 'check-circle'
 runs:
   using: 'docker'
   image: 'Dockerfile'
