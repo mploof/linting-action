@@ -7,10 +7,8 @@ RUN pip install --upgrade --no-cache-dir \
   flake8 \
   flake8-bugbear \
   flake8-comprehensions \
-  pylint
-
-RUN mkdir ~/.config/
-COPY flake8 ~/.config/flake8
+  pylint \
+  pylint_runner
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
